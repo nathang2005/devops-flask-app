@@ -7,7 +7,7 @@ def say_hello():
 
 @app.route('/about')
 def about():
-    return '<p>This application is running on the Flask web framework.</a>.</p>'
+    return '<p>This application is running on the Flask web framework.</a>.</p> <br> <p>Made using <a href="https://www.python.org/">Python</a></p>'
 
 @app.route('/contact')
 def contact():
